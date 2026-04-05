@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(61, 58, 58);
+}
+.dash a{
+    justify-content:center;
+    display:flex;
+    flex:1;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding:100px;
+    margin:20px;
+    margin-top:350px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black
+}
+.dash{
+    justify-content:space-around;
+    display:flex;
+    flex:1;
+}
+a:hover {
+    background-color:rgb(196, 222, 247);
+    transition:all 1s ease-out;
+    transform:translateX(5px);
+}
+.page{
+    margin-left:1000px;
+    display: flex;
+    justify-content:center;
+    padding:5px;
+    margin-left:1700px;
+    text-decoration: none;
+    color:wheat;
+    font-size:30px;
+}
+.page:hover{
+    color:black;
+}
+table{
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left:550px;
+    border:5px solid black;
+}
+tr,th,td:hover{
+    color:black;
+    background-color: blanchedalmond;
+}
+tr,th,td {
+    border:3px solid black;
+    padding:20px;
+    font-size:50px;
+}
+option:hover{
+    background-color: aliceblue;
+    border-radius:10px;
+    font-size:30px;
+}
+section{
+    justify-content:center;
+    display:grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    margin-bottom: 20px;
+}
+.debit{
+    display:grid;
+    align-items: center;
+    color:aliceblue;
+}
+form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    color:aliceblue;
+    font-size:25px;
+}
+label,input{
+    padding:5px;
+    padding-left:90px;
+}
+button{
+    display: grid;
+    padding: 10px;
+    margin:50px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
